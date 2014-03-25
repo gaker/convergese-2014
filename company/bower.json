@@ -1,0 +1,22 @@
+{
+  "name": "company",
+  "version": "0.0.1",
+  "homepage": "",
+  "authors": [
+    "Greg Aker <greg@gregaker.net>"
+  ],
+  "directory": "company/static/vendor",
+  "license": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "2.0.3",
+    "bootstrap": "~3.0.3"
+  }
+}

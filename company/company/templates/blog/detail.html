@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article>
+    <h1>{{ post.title }}</h1>
+    {% if post.author %}
+    <small>Posted by: {{ post.author }}</small>
+    {% endif %}
+    {{ post.body|linebreaks }}
+</article>
+{% endblock %}

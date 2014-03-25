@@ -1,0 +1,4 @@
+Django==1.6.2
+South==0.8.4
+django-debug-toolbar==1.1
+django-ttag==2.4

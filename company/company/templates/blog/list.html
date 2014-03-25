@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+   <article>
+        {% for post in posts %}
+            <h1><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h1>
+            {% if post.author %}
+            <small>Posted by: {{ post.author }}</small>
+            {% endif %}
+            {{ post.body|linebreaks }}
+        {% endfor %}
+    </article>
+{% endblock %}
+
